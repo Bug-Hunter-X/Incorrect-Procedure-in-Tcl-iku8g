@@ -1,0 +1,1 @@
+This repository contains a Tcl procedure with a bug and its solution. The bug is that the procedure doesn't handle cases where the input arguments are not numbers, which can lead to unexpected results or errors. The solution modifies the procedure to handle both numeric and non-numeric input arguments using error handling and type checking.
