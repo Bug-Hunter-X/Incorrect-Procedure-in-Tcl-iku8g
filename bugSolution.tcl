@@ -1,0 +1,1 @@
+proc correct_proc {a b} {     if {[string is double -strict $a] && [string is double -strict $b]} {         if {$a > $b} {             return $a         }         return $b     }     return "Error: Inputs must be numbers" } puts [correct_proc 10 20] puts [correct_proc 20 10] puts [correct_proc abc 20]
